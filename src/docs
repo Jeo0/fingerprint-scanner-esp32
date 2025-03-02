@@ -1,0 +1,12 @@
+
+following this tutorial: https://electropeak.com/learn/interfacing-fpm10a-as608-optical-fingerprint-reader-sensor-module-with-arduino/#google_vignette
+
+there were some problems when compiling. The problem is that software serial port does not work on esp32's according to
+
+https://forum.arduino.cc/t/as608-fingerprint-sensor-not-working-with-esp32-serial-error-resolved/1305162
+
+
+now following the discussion thread, one commenter redirected another starting point to use hardware serial ports 
+https://forum.arduino.cc/t/cant-get-uart-connection-between-two-esp32s-solved/968366
+
+after reading into serial ports and what they do thanks to (https://quadmeup.com/arduino-esp32-and-3-hardware-serial-ports/), 
