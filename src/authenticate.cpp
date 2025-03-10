@@ -16,7 +16,7 @@ void IRAM_ATTR getFingerprintIDez() {
     p = finger.image2Tz();
     if (p != FINGERPRINT_OK)
     {
-        Serial.println("Prateek Image Try Again");
+        Serial.println("Wrong Image Try Again");
         delay(3000);
         // return -1;
         return ;
